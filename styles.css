@@ -50,6 +50,9 @@
   border-radius: 15px;
   vertical-align: middle;
 }
+.social-media-button:hover {
+  transform: scale(1.05);
+}
 
 .contact-container {
   display: flex;
@@ -67,6 +70,6 @@
 }
 .contact-button:hover {
   background-color: rgb(51, 50, 50);
-  color: wheat;
-  transform: scale(1.1);
+  color: white;
+  transform: scale(1.05);
 }
