@@ -6,6 +6,9 @@
   text-decoration: none;
   list-style: none;
 }
+span {
+  color: red;
+}
 .header {
   position: fixed;
   top: 0;
@@ -72,4 +75,65 @@
   background-color: rgb(51, 50, 50);
   color: white;
   transform: scale(1.05);
+}
+.about-me-section {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(241, 241, 241);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.about-me-content {
+  max-width: 850px;
+}
+.about-me-content h3 {
+  font-size: 45px;
+}
+.about-me-content h1 {
+  font-size: 35px;
+}
+.about-me-content p {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.email-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.email-button {
+  padding: 15px 28px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+  border: 3px solid transparent;
+  border-radius: 15px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+
+.email-button:hover {
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.email-section-image {
+  width: 45px;
+  height: auto;
+  border: 45px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+}
+
+.email-button:hover + .email-section-image {
+  opacity: 1;
+  transform: translateY(0px);
 }
