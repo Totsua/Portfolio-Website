@@ -137,3 +137,37 @@ span {
   opacity: 1;
   transform: translateY(0px);
 }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 600px;
+
+  margin-left: auto;
+  padding: 20px;
+  padding-right: 640px;
+}
+
+.skill-box {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skill-box img {
+  max-width: 90px;
+  max-height: 90px;
+  object-fit: contain;
+}
