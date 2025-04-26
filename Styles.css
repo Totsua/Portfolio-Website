@@ -166,3 +166,31 @@ span {
   max-height: 90px;
   object-fit: contain;
 }
+
+.about-me {
+  display: flex;
+  align-items: center;
+
+  padding: 12% 8%;
+  background: black;
+}
+
+.about-content-writing-section {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.about-content h2 {
+  text-align: left;
+  color: white;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.about-content h3 {
+  font-size: 42px;
+  color: white;
+}
+.about-content p {
+  color: white;
+  font-size: 25px;
+}
