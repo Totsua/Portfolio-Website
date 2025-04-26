@@ -75,7 +75,7 @@ span {
   background-color: rgb(51, 50, 50);
   color: white;
 }
-.about-me-section {
+.home-section {
   width: 100%;
   min-height: 100vh;
   background: rgb(241, 241, 241);
@@ -83,13 +83,13 @@ span {
   display: flex;
   align-items: center;
 }
-.about-me-content {
+.home-content {
   max-width: 850px;
 }
-.about-me-content h3 {
+.home-content h3 {
   font-size: 50px;
 }
-.about-me-content h1 {
+.home-content h1 {
   font-size: 45px;
   margin-bottom: 24px;
 }
