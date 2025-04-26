@@ -87,15 +87,11 @@ span {
   max-width: 850px;
 }
 .about-me-content h3 {
-  font-size: 45px;
+  font-size: 50px;
 }
 .about-me-content h1 {
-  font-size: 35px;
-}
-.about-me-content p {
-  font-size: 20px;
-  margin-top: 24px;
-  margin-bottom: 20px;
+  font-size: 45px;
+  margin-bottom: 24px;
 }
 .email-section {
   display: flex;
