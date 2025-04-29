@@ -136,23 +136,21 @@ span {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 600px;
-
-  margin-left: auto;
+  gap: 70px;
+  max-width: 60px;
+  margin: auto;
   padding: 20px;
-  padding-right: 640px;
 }
 
 .skill-box {
-  border: 1px solid #ddd;
+  border: 10px solid #ddd;
   border-radius: 12px;
   padding: 20px;
   background-color: #f9f9f9;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: 140px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -162,15 +160,15 @@ span {
 }
 
 .skill-box img {
-  max-width: 90px;
-  max-height: 90px;
+  max-width: 110px;
+  max-height: 110px;
   object-fit: contain;
 }
 
 .about-me {
   display: flex;
   align-items: center;
-
+  min-height: 100vh;
   padding: 12% 8%;
   background: black;
 }
@@ -183,8 +181,6 @@ span {
 .about-content h2 {
   text-align: left;
   color: white;
-  font-size: 55px;
-  margin-bottom: 10px;
 }
 .about-content h3 {
   font-size: 42px;
@@ -193,4 +189,17 @@ span {
 .about-content p {
   color: white;
   font-size: 25px;
+}
+.heading {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.skills h2 {
+  text-align: left;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  min-height: 88vh;
+  padding: 0 80px;
 }
