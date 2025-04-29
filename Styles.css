@@ -21,6 +21,9 @@ span {
   align-items: center;
   z-index: 100;
 }
+html {
+  scroll-behavior: smooth;
+}
 .logo {
   font-size: 35px;
   color: white;
